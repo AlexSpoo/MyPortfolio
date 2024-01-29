@@ -1,17 +1,18 @@
+
 header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header_box {
+.header-box {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
 /* Links styling */
-.header_links_box {
+.header-links-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,35 +22,28 @@ header {
     bottom: 3rem;
 }
 
-/*
-.header_links_box::after {
-    content: '';
-    width: 0.125rem;
-    height: 2rem;
-    background: var(--color-primary);
-}
-*/
-
-.link_icon {
-    font-size: 1.5rem;
+.link-icon {
+    font-size: 4rem;
 }
 
 /* my picture styling */
-.myPicture {
+.my-picture {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30 rem;
     position: absolute;
-    left: 50%;
+    right: 0;
     transform: translateX(-50%);
     margin-top: 4rem;
     border-radius: 12rem;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    object-fit: cover;
+    z-index: -1;
 }
 
 /* scroll arrow */
-.scroll_icon {
+.scroll-icon {
     border:0;
     position: fixed;
     display: inline-flex;
@@ -66,7 +60,7 @@ header {
 
 /* mobile size */
 @media screen and (max-width: 600px) {
-    .scroll_icon {
+    .scroll-icon {
         display: none;
     }
 }

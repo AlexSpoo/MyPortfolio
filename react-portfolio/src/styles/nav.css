@@ -8,7 +8,7 @@
     font-size: 1.5rem;
 }
 
-.navDesktopMenu {
+.nav-desktop-menu {
     width:90%;
     max-width: 940px;
     padding: 1rem 2rem;
@@ -20,10 +20,17 @@
     margin-right: auto;
     display: flex;
 }
-.desktopMenuListItem {
+.desktop-menu-list-item {
     display: flex;
     width: 100%;
-    color: var(--color-white);
+    margin: 0 5rem;
+    color: var(--color-primary);
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.desktop-menu-list-item:hover {
+    color: var(--color-white);
+    border-bottom: 3px solid var(--color-white);
+    transition: 0.1s;
 }
