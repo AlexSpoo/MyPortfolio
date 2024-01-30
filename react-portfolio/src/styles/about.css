@@ -1,0 +1,7 @@
+
+.about-box {
+    width: clamp(200px, 70%, 600px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

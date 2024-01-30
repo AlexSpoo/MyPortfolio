@@ -5,10 +5,9 @@ import '../styles/header.css'
 const Intro = () => {
   return (
     <div className='intro-box'>
-        <h5>Hello, I'm</h5>
+        <h3>Hey, I'm</h3>
         <h1>Alexander Sponholz</h1>
-        <h5 className='text-light'>a student who loves making new things, as well as programming and design</h5>
-        <HeaderLinks/>
+        <h5>a student who loves making new things, as well as programming and design</h5>
     </div>
   )
 }

@@ -1,14 +1,11 @@
 
 header {
-    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
 .header-box {
     text-align: center;
-    height: 100%;
-    position: relative;
 }
 
 /* Links styling */
@@ -29,15 +26,12 @@ header {
 /* my picture styling */
 .my-picture {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30 rem;
-    position: absolute;
-    right: 0;
-    transform: translateX(-50%);
+    width: 25vw;
+    height: 40vw;
     margin-top: 4rem;
     border-radius: 12rem;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 2rem;
     object-fit: cover;
     z-index: -1;
 }

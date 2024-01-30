@@ -24,13 +24,13 @@
     display: flex;
     width: 100%;
     margin: 0 5rem;
-    color: var(--color-primary);
+    color: var(--color-white);
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 .desktop-menu-list-item:hover {
-    color: var(--color-white);
-    border-bottom: 3px solid var(--color-white);
-    transition: 0.1s;
+    color: var(--color-primary);
+    border-bottom: 3px solid var(--color-primary);
+    transition: 0.15s;
 }
